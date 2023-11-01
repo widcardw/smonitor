@@ -1,3 +1,4 @@
+#!/bin/bash
 source .venv/bin/activate
 current=$(date +%Y-%m-%d_%H-%M-%S)
 logfile=$current".log"
