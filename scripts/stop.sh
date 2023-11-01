@@ -1,3 +1,4 @@
+SERVER_NAME="smonitor"
 PID=`ps -ef|grep "$SERVER_NAME" |grep -v grep |awk '{print $2}'`
 echo "得到进程ID: $PID"
 echo "结束进程"
